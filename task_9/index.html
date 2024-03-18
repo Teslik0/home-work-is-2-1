@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вариант 4: Расчет стоимости электроники</title>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Расчет стоимости электроники</h1>
+        <div class="form" id="form">
+            <label for="phone_quantity">Количество смартфонов:</label>
+            <input type="text" id="phone_quantity">
+            <br><br>
+            <label for="phone_price">Цена смартфонов:</label>
+            <input type="text" id="phone_price">
+            <br><br>
+            <br><br>
+
+            <label for="laptops_quantity">Количество ноутбуков:</label>
+            <input type="text" id="laptops_quantity">
+            <br><br>
+            <label for="laptops_price">Цена ноутбуков:</label>
+            <input type="text" id="laptops_price">
+            <br><br>
+            <br><br>
+
+            <label for="tablets_quantity">Количество планшетов:</label>
+            <input type="text" id="tablets_quantity">
+            <br><br>
+            <label for="tablets_price">Цена планшетов:</label>
+            <input type="text" id="tablets_price">
+            <br><br>
+            <br><br>
+
+            <button onclick="calculate()" id ="saveBtn">Рассчитать общую стоимость</button>
+        </div>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
+
